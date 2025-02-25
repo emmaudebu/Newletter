@@ -37,5 +37,16 @@
 }
 .story-pic {
   width: 100%;
-  height: 100%;
+  height: 50%;
+}
+.story-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.storybtn {
+  background-color: var(--primarycolor);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
 }
